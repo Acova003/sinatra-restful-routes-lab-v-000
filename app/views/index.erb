@@ -1,0 +1,23 @@
+
+#iterate through @recipes
+#@recipes.each do |recipe|
+  recipe.name
+  recipe.blah blah blah
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Team</title>
+    </head>
+    <body>
+      <h1><%= @team_name %></h1>
+      <br>
+      <h2>Team Motto: <%= @team_motto %></h2>
+      <br>
+      <% Recipe.each do |x| %>
+      <h2><%= hero["name"]%></h2>
+      <h3>Hero Power: <%= hero["power"] %></h3>
+      <h3>Hero Biography: <%= hero["bio"] %></h3>
+      <% end %>
+    </body>
+</html>
